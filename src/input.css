@@ -118,10 +118,10 @@
         @apply flex flex-col gap-[15px] text-[18px] md:gap-[8px]
     }
     .mediaicons{
-        @apply flex gap-[30px]
+        @apply flex gap-[30px] md:gap-[15px]
     }
     .btomplus{
-        @apply md:flex md:gap-[40px]
+        @apply md:flex md:gap-[25px]
     }
     
 }

@@ -600,7 +600,7 @@ video {
 
 @media (min-width: 768px) {
   .navbar {
-    gap: 28%;
+    gap: 25%;
   }
 }
 
@@ -1107,7 +1107,13 @@ video {
 
   .btomplus {
     display: flex;
-    gap: 25px;
+    gap: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btomplus {
+    gap: 100px;
   }
 }
 

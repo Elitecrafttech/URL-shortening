@@ -4,7 +4,7 @@
 
 @layer components{
     .navbar{
-        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[28%] lg:gap-[50%] pl-[30px]
+        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[25%] lg:gap-[50%] pl-[30px]
     }
     .imglist{
         @apply flex gap-[30px]
@@ -121,7 +121,7 @@
         @apply flex gap-[30px] md:gap-[15px]
     }
     .btomplus{
-        @apply md:flex md:gap-[25px]
+        @apply md:flex md:gap-[5px] lg:gap-[100px]
     }
     
 }

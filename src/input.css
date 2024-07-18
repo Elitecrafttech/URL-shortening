@@ -4,7 +4,7 @@
 
 @layer components{
     .navbar{
-        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[40%] pl-[30px]
+        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[45%] pl-[30px]
     }
     .imglist{
         @apply flex gap-[30px]
@@ -58,7 +58,7 @@
         @apply bg-[#2ACFCF] p-[10px] rounded-md text-white font-bold text-[20px] md:w-[16vw]
     }
     .shorten{
-        @apply bg-[#eceaea] py-[120px]  flex flex-col items-center text-center px-[30px] gap-[90px]
+        @apply size-full bg-[#eceaea] py-[120px]  flex flex-col items-center text-center px-[30px] gap-[90px]
     }
     .sts{
         @apply flex flex-col gap-[20px]
@@ -94,7 +94,7 @@
         @apply w-[82vw] text-[22px] md:w-[19vw] md:text-[15px] text-left
     }
      .boost{
-        @apply flex flex-col gap-[30px] items-center justify-center py-[100px] md:py-[80px] text-[#fff9f9]
+        @apply size-full flex flex-col gap-[30px] items-center justify-center py-[100px] md:py-[80px] text-[#fff9f9]
      }
      .boost h1{
         @apply font-extrabold md:font-bold text-[30px] font-sans

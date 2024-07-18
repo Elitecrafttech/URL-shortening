@@ -4,7 +4,7 @@
 
 @layer components{
     .navbar{
-        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[30%] pl-[30px]
+        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[30%] lg:gap-[50%] pl-[30px]
     }
     .imglist{
         @apply flex gap-[30px]

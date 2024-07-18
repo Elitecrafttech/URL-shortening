@@ -604,6 +604,12 @@ video {
   }
 }
 
+@media (min-width: 1024px) {
+  .navbar {
+    gap: 50%;
+  }
+}
+
 .imglist {
   display: flex;
   gap: 30px;

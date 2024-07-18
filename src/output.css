@@ -1026,6 +1026,55 @@ video {
   }
 }
 
+.btom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 33 39 / var(--tw-bg-opacity));
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .btom {
+    flex-direction: row;
+  }
+}
+
+.imagelogo {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 5px;
+}
+
+.ft1, .ft2, .ft3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ft1 h1, .ft2 h1, .ft3 h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.ft1 ul, .ft2 ul, .ft3 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.mediaicons {
+  display: flex;
+  gap: 30px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

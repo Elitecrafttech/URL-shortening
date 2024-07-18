@@ -102,4 +102,23 @@
      .boost button{
         @apply bg-[#2ACFCF] rounded-full p-[8px] w-[60vw] text-[20px] text-[#fff9f9] font-extrabold md:font-semibold font-sans md:p-[3px] md:w-[15vw]
     }
+    .btom{
+        @apply bg-[#232127] py-[50px] text-white flex flex-col items-center text-center gap-[20px] md:flex-row
+    }
+    .imagelogo{
+        @apply bg-white p-[5px]
+    }
+    .ft1, .ft2, .ft3{
+        @apply flex flex-col gap-[20px]
+    }
+    .ft1 h1, .ft2 h1, .ft3 h1{
+        @apply text-[25px] font-bold
+    }
+    .ft1 ul, .ft2 ul, .ft3 ul{
+        @apply flex flex-col gap-[15px] text-[18px]
+    }
+    .mediaicons{
+        @apply flex gap-[30px]
+    }
+    
 }

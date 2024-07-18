@@ -600,7 +600,7 @@ video {
 
 @media (min-width: 768px) {
   .navbar {
-    gap: 30%;
+    gap: 29%;
   }
 }
 
@@ -623,6 +623,7 @@ video {
 @media (min-width: 768px) {
   .\!list {
     display: flex;
+    gap: 12;
   }
 }
 
@@ -634,6 +635,7 @@ video {
 @media (min-width: 768px) {
   .list {
     display: flex;
+    gap: 12;
   }
 }
 

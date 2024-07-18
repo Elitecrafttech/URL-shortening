@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .navbar{
+        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[47em] pl-[30px]
+    }
+    .imglist{
+        @apply flex gap-[30px]
+    }
+    .list{
+        @apply hidden md:flex gap-[15px]
+    }
+    .allbtn{
+        @apply hidden md:flex gap-[20px]
+    }
+    .sign{
+        @apply bg-[#2ACFCF] rounded-full p-[3px] w-[7vw] text-white font-bold
+    }
+    .unicode{
+        @apply flex md:hidden text-[40px]
+    }
+    .shorter{
+        @apply flex flex-col-reverse items-center justify-center text-center md:flex-row gap-[30px] md:gap-0 pt-[50px]
+    }
+    .shdiv{
+        @apply flex flex-col gap-[40px] items-center md:items-start md:text-left md:size-[50%] size-full md:pl-[30px]
+    }
+    .shdiv h1{
+        @apply font-extrabold text-[30px] w-[70vw] md:text-[50px] md:w-[30vw] md:leading-[50px]
+    }
+    .shdiv p{
+        @apply w-[100vw] md:w-[34vw] text-[25px] md:text-[20px]
+    }
+    .shdiv button{
+        @apply bg-[#2ACFCF] rounded-full p-[8px] w-[30vw] text-white font-bold md:p-[3px] md:w-[10vw]
+    }
+    .shimage{
+        @apply md:size-[50%] size-full flex items-center justify-center
+    }
+    .shimage img{
+        @apply h-[200px] md:h-[400px]
+    }
+    .s1{
+        @apply px-[30px]
+    }
+    .shrt{
+        @apply flex flex-col p-[50px] rounded-lg relative top-[100px] gap-[10px] md:top-[70px] md:flex-row
+    }
+    .shrt input{
+        @apply p-[10px] rounded-md text-[gray] md:w-[74vw]
+    }
+    ::placeholder{
+        @apply font-semibold text-[20px]
+    }
+    .shrt button{
+        @apply bg-[#2ACFCF] p-[10px] rounded-md text-white font-bold text-[20px] md:w-[16vw]
+    }
+    .shorten{
+        @apply bg-[#eceaea] py-[120px]  flex flex-col items-center text-center px-[30px] gap-[90px]
+    }
+    .sts{
+        @apply flex flex-col gap-[20px]
+    }
+    .sts h1{
+        @apply font-extrabold text-[30px]
+    }
+    .sts p{
+        @apply w-[90vw] text-[22px]
+    }
+    .combine{
+        @apply flex flex-col md:flex-row gap-[90px] md:pb-[80px] relative
+    }
+    .brand, .record, .fully{
+        @apply bg-slate-50 rounded-lg flex flex-col items-center md:items-start px-[20px] pb-[20px] md:w-[23vw] md:pl-[20px] relative
+    }
+    .record{
+        @apply md:relative md:top-[60px]
+    }
+    .fully{
+        @apply md:relative md:top-[120px]
+    }
+    .brandmg, .recordmg, .fullymg{
+        @apply bg-[#3B3053] rounded-full p-[20px] md:p-[15px] flex items-center relative bottom-[35px]
+    }
+    .brd, .rcd, .ful{
+        @apply flex flex-col gap-[30px]
+    }
+    .brd h1, .rcd h1, .ful h1{
+        @apply font-bold text-[20px] md:text-left
+    }
+    .brd p, .rcd p, .ful p{
+        @apply w-[82vw] text-[22px] md:w-[19vw] md:text-[15px] text-left
+    }
+     .boost{
+        @apply flex flex-col gap-[30px] items-center justify-center py-[100px] md:py-[80px] text-[#fff9f9]
+     }
+     .boost h1{
+        @apply font-extrabold md:font-bold text-[30px] font-sans
+     }
+     .boost button{
+        @apply bg-[#2ACFCF] rounded-full p-[8px] w-[60vw] text-[20px] text-[#fff9f9] font-extrabold md:font-semibold font-sans md:p-[3px] md:w-[10vw]
+    }
+}

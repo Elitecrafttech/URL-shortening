@@ -600,7 +600,7 @@ video {
 
 @media (min-width: 768px) {
   .navbar {
-    gap: 45%;
+    gap: 30%;
   }
 }
 

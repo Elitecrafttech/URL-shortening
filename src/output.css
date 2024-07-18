@@ -1061,6 +1061,7 @@ video {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
+    gap: 5px;
     text-align: left;
   }
 }
@@ -1107,13 +1108,13 @@ video {
 
   .btomplus {
     display: flex;
-    gap: 5px;
+    gap: 0px;
   }
 }
 
 @media (min-width: 1024px) {
   .btomplus {
-    gap: 100px;
+    gap: 50px;
   }
 }
 

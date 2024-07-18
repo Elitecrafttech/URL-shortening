@@ -103,7 +103,7 @@
         @apply bg-[#2ACFCF] rounded-full p-[8px] w-[60vw] text-[20px] text-[#fff9f9] font-extrabold md:font-semibold font-sans md:p-[3px] md:w-[15vw]
     }
     .btom{
-        @apply size-full bg-[#232127] py-[50px] text-white flex flex-col items-center text-center gap-[20px] md:flex-row md:text-left md:justify-around md:items-start
+        @apply size-full bg-[#232127] py-[50px] text-white flex flex-col items-center text-center gap-[20px] md:gap-[5px] md:flex-row md:text-left md:justify-around md:items-start
     }
     .imagelogo{
         @apply bg-white p-[5px]
@@ -121,7 +121,7 @@
         @apply flex gap-[30px] md:gap-[15px]
     }
     .btomplus{
-        @apply md:flex md:gap-[5px] lg:gap-[100px]
+        @apply md:flex md:gap-[0px] lg:gap-[50px]
     }
     
 }

@@ -4,7 +4,7 @@
 
 @layer components{
     .navbar{
-        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[47em] pl-[30px]
+        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[50%] pl-[30px]
     }
     .imglist{
         @apply flex gap-[30px]
@@ -100,6 +100,6 @@
         @apply font-extrabold md:font-bold text-[30px] font-sans
      }
      .boost button{
-        @apply bg-[#2ACFCF] rounded-full p-[8px] w-[60vw] text-[20px] text-[#fff9f9] font-extrabold md:font-semibold font-sans md:p-[3px] md:w-[10vw]
+        @apply bg-[#2ACFCF] rounded-full p-[8px] w-[60vw] text-[20px] text-[#fff9f9] font-extrabold md:font-semibold font-sans md:p-[3px] md:w-[15vw]
     }
 }

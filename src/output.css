@@ -600,7 +600,7 @@ video {
 
 @media (min-width: 768px) {
   .navbar {
-    gap: 47em;
+    gap: 50%;
   }
 }
 
@@ -1010,7 +1010,7 @@ video {
 
 @media (min-width: 768px) {
   .boost button {
-    width: 10vw;
+    width: 15vw;
     padding: 3px;
     font-weight: 600;
   }

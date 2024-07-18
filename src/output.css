@@ -623,6 +623,7 @@ video {
 @media (min-width: 768px) {
   .\!list {
     display: flex;
+    gap: 5px;
   }
 }
 
@@ -634,6 +635,7 @@ video {
 @media (min-width: 768px) {
   .list {
     display: flex;
+    gap: 5px;
   }
 }
 

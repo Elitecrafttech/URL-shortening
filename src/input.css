@@ -10,7 +10,7 @@
         @apply flex gap-[30px]
     }
     .list{
-        @apply hidden md:flex gap-[15px]
+        @apply hidden md:flex gap-[15px] md:gap-[5px]
     }
     .allbtn{
         @apply hidden md:flex gap-[20px]

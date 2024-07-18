@@ -103,7 +103,7 @@
         @apply bg-[#2ACFCF] rounded-full p-[8px] w-[60vw] text-[20px] text-[#fff9f9] font-extrabold md:font-semibold font-sans md:p-[3px] md:w-[15vw]
     }
     .btom{
-        @apply bg-[#232127] py-[50px] text-white flex flex-col items-center text-center gap-[20px] md:flex-row
+        @apply size-full bg-[#232127] py-[50px] text-white flex flex-col items-center text-center gap-[20px] md:flex-row md:text-left md:justify-around md:items-start
     }
     .imagelogo{
         @apply bg-white p-[5px]
@@ -115,10 +115,13 @@
         @apply text-[25px] font-bold
     }
     .ft1 ul, .ft2 ul, .ft3 ul{
-        @apply flex flex-col gap-[15px] text-[18px]
+        @apply flex flex-col gap-[15px] text-[18px] md:gap-[8px]
     }
     .mediaicons{
         @apply flex gap-[30px]
+    }
+    .btomplus{
+        @apply md:flex md:gap-[40px]
     }
     
 }

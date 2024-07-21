@@ -10,9 +10,18 @@
         @apply flex gap-[30px] items-center
     }
     .list{
-        @apply flex-col md:flex md:flex-row md:gap-[20px] lg:gap-[15px] bg-[#232127] md:bg-white text-white md:text-black items-center text-center
+        @apply flex-col md:flex md:flex-row gap-[10px] md:gap-[20px] lg:gap-[15px] bg-[#232127] md:bg-white text-white md:text-black items-center text-center
         md:static md:w-auto absolute top-[60px] right-[20px] left-[20px]
-        h-[0vh] md:h-[30px] leading-[40px] text-[30px] font-semibold md:text-base md:font-normal rounded-lg md:rounded-none overflow-hidden
+        h-[0vh] md:h-[30px] leading-[40px] text-[20px] font-semibold md:text-base md:font-normal rounded-lg md:rounded-none overflow-hidden
+    }
+    .navround{
+        @apply px-[30px] py-[10px] flex flex-col gap-[10px]
+    }
+    .navibtn{
+        @apply flex flex-col gap-[10px] items-center md:hidden
+    }
+    .navsign{
+        @apply bg-[#2ACFCF] rounded-full p-[3px] w-[75vw] text-white font-bold
     }
     .allbtn{
         @apply hidden md:flex gap-[20px]

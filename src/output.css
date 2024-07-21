@@ -600,7 +600,7 @@ video {
 
 @media (min-width: 768px) {
   .navbar {
-    gap: 33%;
+    gap: 35%;
   }
 }
 
@@ -624,12 +624,13 @@ video {
   height: 0vh;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
   overflow: hidden;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(35 33 39 / var(--tw-bg-opacity));
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 40px;
   --tw-text-opacity: 1;
@@ -669,12 +670,13 @@ video {
   height: 0vh;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
   overflow: hidden;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(35 33 39 / var(--tw-bg-opacity));
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 40px;
   --tw-text-opacity: 1;
@@ -704,6 +706,40 @@ video {
   .list {
     gap: 15px;
   }
+}
+
+.navround {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navibtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .navibtn {
+    display: none;
+  }
+}
+
+.navsign {
+  width: 75vw;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 207 207 / var(--tw-bg-opacity));
+  padding: 3px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .allbtn {

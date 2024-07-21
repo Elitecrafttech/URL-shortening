@@ -27,7 +27,7 @@
         @apply text-[40px]
     }
     .unicode2{
-        @apply absolute right-[5px] hidden
+        @apply absolute hidden
     }
     .unicode2 img{
         @apply h-[33px]

@@ -15,7 +15,7 @@
         h-[0vh] md:h-[30px] leading-[40px] text-[20px] font-semibold md:text-base md:font-normal rounded-lg md:rounded-none overflow-hidden
     }
     .navround{
-        @apply px-[30px] py-[10px] flex flex-col gap-[10px]
+        @apply px-[30px] pt-[10px] flex flex-col gap-[10px]
     }
     .navibtn{
         @apply flex flex-col gap-[10px] items-center md:hidden

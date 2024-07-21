@@ -45,7 +45,7 @@
         background-size: cover;
     }
     .list{
-        transition: 3s ease-in-out;
+        transition: 1s ease-in-out;
     }
     .scroll{
         height: 39vh;

@@ -7,10 +7,12 @@
         @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[25%] lg:gap-[50%] pl-[30px]
     }
     .imglist{
-        @apply flex gap-[30px]
+        @apply flex gap-[30px] items-center
     }
     .list{
-        @apply hidden md:flex gap-[15px] md:gap-[0px] lg:gap-[15px]
+        @apply flex-col md:flex md:flex-row md:gap-[0px] lg:gap-[15px] bg-[#232127] md:bg-white text-white md:text-black items-center text-center
+        md:static md:w-auto absolute top-[60px] right-[20px] left-[20px]
+        h-[0vh] md:h-[30px] leading-[40px] text-[30px] font-semibold md:text-base md:font-normal rounded-lg md:rounded-none overflow-hidden
     }
     .allbtn{
         @apply hidden md:flex gap-[20px]
@@ -18,8 +20,17 @@
     .sign{
         @apply bg-[#2ACFCF] rounded-full p-[3px] w-[7vw] text-white font-bold
     }
-    .unicode{
-        @apply flex md:hidden text-[40px]
+    .unibar{
+        @apply flex md:hidden items-center
+    }
+    .unicode1{
+        @apply text-[40px]
+    }
+    .unicode2{
+        @apply absolute right-[5px] hidden
+    }
+    .unicode2 img{
+        @apply h-[33px]
     }
     .shorter{
         @apply flex flex-col-reverse items-center justify-center text-center md:flex-row gap-[30px] md:gap-0 pt-[50px]

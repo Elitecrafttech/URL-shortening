@@ -44,4 +44,16 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .list{
+        transition: 3s ease-in-out;
+    }
+    .scroll{
+        height: 27vh;
+    }
+    .newtg{
+        display: flex;
+    }
+    .hidtg{
+        display: none;
+    }
  }

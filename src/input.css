@@ -4,13 +4,13 @@
 
 @layer components{
     .navbar{
-        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[25%] lg:gap-[50%] pl-[30px]
+        @apply size-full flex items-center h-[70px] gap-[12em] md:gap-[28%] lg:gap-[50%] pl-[30px]
     }
     .imglist{
         @apply flex gap-[30px] items-center
     }
     .list{
-        @apply flex-col md:flex md:flex-row md:gap-[10px] lg:gap-[15px] bg-[#232127] md:bg-white text-white md:text-black items-center text-center
+        @apply flex-col md:flex md:flex-row md:gap-[15px] lg:gap-[15px] bg-[#232127] md:bg-white text-white md:text-black items-center text-center
         md:static md:w-auto absolute top-[60px] right-[20px] left-[20px]
         h-[0vh] md:h-[30px] leading-[40px] text-[30px] font-semibold md:text-base md:font-normal rounded-lg md:rounded-none overflow-hidden
     }
@@ -132,7 +132,7 @@
         @apply flex gap-[30px] md:gap-[15px]
     }
     .btomplus{
-        @apply md:flex md:gap-[15px] lg:gap-[100px]
+        @apply md:flex md:gap-[20px] lg:gap-[100px]
     }
     
 }

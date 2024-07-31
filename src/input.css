@@ -69,7 +69,7 @@
         @apply flex flex-col p-[50px] rounded-lg relative top-[100px] gap-[10px] md:top-[70px] md:flex-row
     }
     .shrt input{
-        @apply p-[10px] rounded-md text-[gray] md:w-[74vw]
+        @apply p-[10px] rounded-md text-[gray] md:w-[74vw] outline-none
     }
     ::placeholder{
         @apply font-semibold text-[20px]
